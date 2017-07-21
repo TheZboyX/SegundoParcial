@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2017, 6:25:27 PM
+    Author     : 00140260
+*/
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #00FFFF;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+html, body {
+height: 100%; /* hacer que la página llene toda la altura */
+}
+* {
+margin: 0;  /* márgenes podrían meter la pata */
+}
+#contenidoprincipal  {
+height: 100%;  /* empuja el pie hacia abajo */
+}
+#piedepagina {
+height: 50px;  /* establece la altura del pie de página */
+margin-top: -50px;  /* estas cifras tienen que ser opostas */
+}
