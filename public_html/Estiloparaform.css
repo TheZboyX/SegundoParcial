@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2017, 7:58:58 PM
+    Author     : 00140260
+*/
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #00FFFF;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+#formul {  
+    padding: 10px 0px 0px 30px;   /* margen con valores: arriba - derecha - abajo - izquierda */ 
+    font-family:verdana,arial; 
+    font-size:8pt; 
+}  
+
+.campos {  
+    font-family:verdana,arial;     /* tipo de letra */  
+    width: 500px;                 /* anchura de campos de formulario */  
+    font-size:8pt;                /* tamaño de la letra*/   
+    color:#FFF;                 /* color del texto */   
+    border: 1px dotted black;        /* color del borde puede ser solid ó dotted */   
+    background-color:#ccc;    /* color del fondo */   
+}  
+
+.boton{ 
+    font-size:11px; 
+    font-family:Verdana,Helvetica; 
+    font-weight:bold; 
+    color:#000000; 
+    background:#00FFFF; 
+    border:1px; 
+    width:120px; 
+    height:25px; 
+} 
+
+#b_reset {  
+    margin: 0px 0px 0px 0px;    /* margen con valores: arriba - derecha - abajo - izquierda */  
+}  
+
+#b_submit {  
+    margin: -25px 0px 0px 380px;    /* margen con valores: arriba - derecha - abajo - izquierda */  
+}  
+#contenidoprincipal  {
+height: 100%;  /* empuja el pie hacia abajo */
+}
+#piedepagina {
+height: 20px;  /* establece la altura del pie de página */
+margin-top: -20px;  /* estas cifras tienen que ser opostas */
+}
